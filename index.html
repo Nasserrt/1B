@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B1</title>
+    <link href="https://db.onlinewebfonts.com/c/72112afab388987941068c3f7a741a53?family=Mark+Pro+Heavy" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            overflow: hidden;
+            font-family: "Mark Pro Heavy";
+        }
+
+        .title{
+            width: 100%;
+            text-align: center;
+        }
+
+        .layout{
+            width: 100%;
+        }
+
+        h1{
+            position: relative;
+            left: 15.5%;
+            margin-bottom: 20px;
+        }
+
+        .layout > *, .layout h1{
+            position: relative;
+            margin: 0 auto;
+            top: 270px;
+        }
+
+        .progress-bar{  
+            width: 70%;
+            height: 55px;
+            border: solid 7px orange;
+            border-radius: 50px;
+        }
+        .progress-numbers{
+            font-weight: bold;
+            padding-top: 20px;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 2.5rem;
+        }
+
+        .logo{
+            position: absolute;
+            top: 283px;
+            left: 78%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo img{
+            width: 170px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title"><h2>World Record.</h2></div>
+
+    <div class="layout">
+        <h1 style="letter-spacing: 1.5px;">Let's fill this BITCH.</h1>
+        <div class="progress-bar"></div>
+        <div class="logo"><img src="./images/logo-png.png" alt="logo-image"></div>
+        <div class="progress-numbers">
+            <p>10k</p>
+            <p>100k</p>
+            <p>1M</p>
+            <p>10M</p>
+            <p>100M</p>
+            <p>1B</p>
+        </div>
+    </div>
+</body>
+</html>
